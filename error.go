@@ -23,7 +23,7 @@ func formattedError(a, b int) error {
 	return nil
 }
 
-func main() {
+func Error() {
 	err := check(0, 10)
 	if err == nil {
 		fmt.Println("check() ended normally!")
